@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: linear-gradient(180deg, lavenderblush 0%, white 100%);;
+    box-shadow: 0 4px 4px #0000001a;
+    position:relative;
+}
+nav{
+    display:block;
+    unicode-bidi: isolate;
+
+}
+
+
+body{
+    text-align : center;
+    font-family: "Roboto", sans-serif;
+    
+}
+.count{
+    font-size: 3rem;
+}
+button{
+    background-color :cyan;
+    padding : 10px 16px;
+    background-color: cyan;
+    border: 1px solid grey;
+    border-radius: 4px;
+    cursor : pointer;
+    font-size :1rem;
+}
+
+.changeBy{
+    width : 5rem;
+    height : 2rem;
+    font-size : 1rem;
+    margin: 16px 8px;
+}
